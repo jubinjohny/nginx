@@ -27,7 +27,7 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 service:
-  type: Loadbalancer
+  type: LoadBalancer
   port: 80
 ingress:
   enabled: false
